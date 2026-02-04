@@ -1,0 +1,13 @@
+name: first-work-flow
+
+on: 
+  push: 
+    branches: [ main ]
+
+
+job:
+  greet:
+    runs-on: ubuntu-lastest
+    steps:
+      name: osas
+      run: echo "hello world
