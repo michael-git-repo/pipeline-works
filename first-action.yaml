@@ -1,0 +1,12 @@
+name: first-work-flow
+
+on: [push]
+
+run-on: ubuntu-lastest
+
+job:
+  greet:
+    run-on: ubuntu-lastest
+    steps:
+      name: osas
+      run: echo "hello world"
